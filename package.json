@@ -1,0 +1,17 @@
+{
+  "name": "backend0",
+  "version": "1.0.0",
+  "description": "Backend Learning",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server" ,
+    "dev":"nodemon server.js"
+  },
+  "author": "Naveen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
