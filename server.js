@@ -3,7 +3,7 @@ const dotenv=require('dotenv')
 
 //load env files
 //config()method help to path for env
-dotenv.config({path:'config/.env'})
+dotenv.config()
 
 const app=express();
 const PORT=process.env.PORT || 6969
